@@ -27,6 +27,40 @@
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/raksha-risk.git
+# Clone the repository
+git clone https://github.com/yourusername/raksha-risk.git
+
+# Navigate to the project directory
+cd raksha-risk
+
+# Install the necessary dependencies
+pip install -r requirements.txt
+
+## Usage
+# Run the main script to train the model
+python train_model.py
+
+# After training, use the prediction script to test the model
+python predict_risk.py
+
+# The project also includes an interactive Power BI dashboard for real-time risk monitoring
+
+# Use SHAP to explain model predictions
+python explain_model.py
+
+## Contributing
+# Fork the repository
+
+# Create a new branch
+git checkout -b feature-branch
+
+# Commit your changes
+git commit -am 'Add new feature'
+
+# Push to the branch
+git push origin feature-branch
+
+# Create a new pull request
+
+## License
+# This project is licensed under the MIT License - see the LICENSE file for details.
